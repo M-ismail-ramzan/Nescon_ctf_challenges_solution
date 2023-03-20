@@ -24,13 +24,13 @@ At the login form we need to give some creds.
 ![login](./Screenshot_3.png "login").
 
 ## Looking at api
-At api we need to give userid parameter<br>
+At api we need to give userid parameter<br><br />
 ![api](./Screenshot_4.png "api").
- After giving at userid to 1 we know that it is of admin<br>
+ After giving at userid to 1 we know that it is of admin<br><br />
 ![userid](./Screenshot_5.png "userid").
-By putting the userid as 2 we see a message saying that only localhost is allowed to access this resource.<br>
+By putting the userid as 2 we see a message saying that only localhost is allowed to access this resource.<br><br />
 ![userid](./Screenshot_6.png "userid").
- It means we need to figure out some way to send the request from the sever to this address.<br>
+ It means we need to figure out some way to send the request from the sever to this address.<br><br />
 
  ## Looking at sitemap.xml
 
