@@ -34,23 +34,23 @@ By putting the userid as 2 we see a message saying that only localhost is allowe
 
  ## Looking at sitemap.xml
 
-At sitemap.xml we see 2 more directoires. Let's see them one by one.
+At sitemap.xml we see 2 more directoires. Let's see them one by one. <br>
 ![sitemap](./Screenshot_7.png "sitemap").
 
-At message we see that we are being given a hint that we must be using secure keys for signing something.
+At message we see that we are being given a hint that we must be using secure keys for signing something.<br>
 ![message](./Screenshot_8.png "message").
 
-Looking at the app we see a request sender app. Now, from the above we had a resource where only localhost could send the request to. So, maybe we can use this app to access that resource ?
+Looking at the app we see a request sender app. Now, from the above we had a resource where only localhost could send the request to. So, maybe we can use this app to access that resource ?<br>
 ![userid](./Screenshot_9.png "userid").
 
 ## Getting userid=2 localhost message
 
-Now putting in the url we get some string in return which is base64 as mentioned at the start of the string.
+Now putting in the url we get some string in return which is base64 as mentioned at the start of the string.<br>
 
 ![creds](./Screenshot_10.png "creds").
 
 ## Decoding the message
-From here, we got the creds of the john with the password.
+From here, we got the creds of the john with the password.<br>
 ![creds](./Screenshot_11.png "creds").
 
 ## Logging in
